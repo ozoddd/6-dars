@@ -1,5 +1,10 @@
 export default [
   {
+    title: "AnsorMed",
+    github: "https://github.com/ozoddd/10-dars-uy-ishi",
+    vercel: "https://10-dars-uy-ishi-iota.vercel.app/",
+  },
+  {
     title: "Bmw-car",
     github: "https://github.com/ozoddd/bmw-car",
     vercel: "https://bmw-car-psi.vercel.app/",
