@@ -57,6 +57,9 @@ body {
   flex-direction: column;
   height: 100%;
   font-family: "Noto Serif", serif;
+  background: linear-gradient(107.24deg, #fea36f -11.37%, #062630 61.84%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 main {
