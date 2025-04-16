@@ -22,6 +22,14 @@
   font-weight: 700;
   src: url("../fonts/noto-serif-v28-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+/* martian-mono-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Martian Mono";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/martian-mono-v3-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
 *,
 *::after,
@@ -58,8 +66,9 @@ body {
   height: 100%;
   font-family: "Noto Serif", serif;
   background: linear-gradient(107.24deg, #fea36f -11.37%, #062630 61.84%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  /* * -webkit-text-fill-color:; *
+  * -webkit-background-clip: text; * */
+  color: lightblue;
 }
 
 main {
@@ -79,7 +88,6 @@ main {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-
 .portfolio {
 }
 .portfolio__container {
@@ -90,6 +98,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  color: lightblue;
 }
 .portfolio__item {
   border-bottom: 2px solid #ccc;
@@ -122,6 +131,14 @@ main {
 }
 .portfolio__link {
   font-size: 18px;
+}
+.link-github {
+  color: lightblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.link-vercel {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: lightblue;
 }
 .fa-brands {
 }
