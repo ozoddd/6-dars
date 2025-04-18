@@ -1,5 +1,20 @@
 export default [
   {
+    title: "Namanganliklra",
+    github: "https://github.com/ozoddd/namanganliklar",
+    vercel: "https://namanganliklar-kohl.vercel.app/",
+  },
+  {
+    title: "Tech book responsive",
+    github: "https://github.com/ozoddd/Tech-book-Responsiv",
+    vercel: "https://tech-book-responsiv.vercel.app/",
+  },
+  {
+    title: "Analytics",
+    github: "https://github.com/ozoddd/analytics",
+    vercel: "https://analytics-zeta-livid.vercel.app/",
+  },
+  {
     title: "Tech book page",
     github: "https://github.com/ozoddd/the-book-page",
     vercel: "https://the-book-page.vercel.app/",
