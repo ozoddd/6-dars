@@ -1,6 +1,11 @@
 export default [
   {
-    title: "Namanganliklra",
+    title: "Namanganliklar.24",
+    github: "https://github.com/ozoddd/12-dars-namanganliklar24",
+    vercel: "https://12-dars-namanganliklar24.vercel.app/",
+  },
+  {
+    title: "tech book",
     github: "https://github.com/ozoddd/namanganliklar",
     vercel: "https://namanganliklar-kohl.vercel.app/",
   },
@@ -13,6 +18,21 @@ export default [
     title: "Analytics",
     github: "https://github.com/ozoddd/analytics",
     vercel: "https://analytics-zeta-livid.vercel.app/",
+  },
+  {
+    title: "card3",
+    github: "https://github.com/ozoddd/card-3",
+    vercel: "https://card-3-sable.vercel.app/",
+  },
+  {
+    title: "Cars categories",
+    github: "https://github.com/ozoddd/card-cars-categories",
+    vercel: "https://card-cars-categories.vercel.app/",
+  },
+  {
+    title: "Card 2",
+    github: "https://github.com/ozoddd/card-2",
+    vercel: "https://card-2-blue.vercel.app/",
   },
   {
     title: "Tech book page",
