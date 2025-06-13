@@ -1,3 +1,4 @@
+
 import data from "./data.js";
 const time = document.querySelector("#time");
 const template = document.querySelector("template");

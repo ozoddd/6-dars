@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Music player",
+    github: "https://github.com/ozoddd/play-music",
+    vercel: "https://play-music-chi.vercel.app/",
+  },
+  {
     title: "Namanganliklar.24",
     github: "https://github.com/ozoddd/12-dars-namanganliklar24",
     vercel: "https://12-dars-namanganliklar24.vercel.app/",
