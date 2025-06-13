@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Market",
+    github: "https://github.com/ozoddd/market",
+    vercel: "https://market-eta-fawn.vercel.app/",
+  },
+  {
     title: "Music player",
     github: "https://github.com/ozoddd/play-music",
     vercel: "https://play-music-chi.vercel.app/",
