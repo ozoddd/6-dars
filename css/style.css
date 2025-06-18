@@ -128,18 +128,14 @@ main {
   display: flex;
   align-items: center;
   gap: 30px;
+  color: lightblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .portfolio__link {
   font-size: 18px;
 }
-.link-github {
-  color: lightblue;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.link-vercel {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: lightblue;
-}
+
 .fa-brands {
 }
 .fa-github {
