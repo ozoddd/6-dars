@@ -55,22 +55,39 @@ ol {
   list-style: none;
 }
 
-html {
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* html {
   height: 100%;
   scroll-behavior: smooth;
-}
-
+} */
 body {
+  font-family: "Noto Serif", serif;
+  background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
+  background-size: 400% 400%;
+  animation: gradientBackground 15s ease infinite;
+  color: lightblue;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  font-family: "Noto Serif", serif;
-  background: linear-gradient(107.24deg, #abcdef -11.37%, #062630 61.84%);
-  /* * -webkit-text-fill-color:; *
-  * -webkit-background-clip: text; * */
-  color: lightblue;
 }
 
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 main {
   flex-grow: 1;
 }
@@ -98,7 +115,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  color: lightblue;
+  color: white;
 }
 .portfolio__item {
   border-bottom: 2px solid #ccc;
@@ -128,7 +145,7 @@ main {
   display: flex;
   align-items: center;
   gap: 30px;
-  color: lightblue;
+  color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -152,7 +169,7 @@ main {
 }
 
 .footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 20px;
   text-align: center;
+  color: #fff;
 }
