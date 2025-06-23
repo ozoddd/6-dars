@@ -71,7 +71,7 @@ body {
   background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
   background-size: 400% 400%;
   animation: gradientBackground 15s ease infinite;
-  color: lightblue;
+  color: #123334;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -115,10 +115,10 @@ main {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  color: white;
+  color: #123334;
 }
 .portfolio__item {
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid #123334;
   padding-bottom: 10px;
 }
 .portfolio__content {

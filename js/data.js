@@ -1,5 +1,15 @@
 export default [
   {
+    title: "Market render",
+    github: "https://github.com/ozoddd/market",
+    vercel: "https://market-eta-fawn.vercel.app/",
+  },
+  {
+    title: "User",
+    github: "https://github.com/ozoddd/6-oy-1-dars.user",
+    vercel: "https://6-oy-1-dars-user.vercel.app/",
+  },
+  {
     title: "Desserts",
     github: "https://github.com/ozoddd/imtion-5-oy_12-dars",
     vercel: "https://imtion-5-oy-12-dars.vercel.app/",
