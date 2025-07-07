@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Books webpage",
+    github: "https://github.com/ozoddd/Books-webpage",
+    vercel: "https://books-webpage-kappa.vercel.app/",
+  },
+  {
     title: "Market render",
     github: "https://github.com/ozoddd/market",
     vercel: "https://market-eta-fawn.vercel.app/",
